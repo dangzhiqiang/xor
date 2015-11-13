@@ -17,3 +17,8 @@ usage
 	    ./xor --encode            # encode strings which you input
 	    ./xor --decode            # decode strings which you input
 	    ./xor --help or -h        # show this help infomation
+
+lib
+-----
+		char *xor_encode(const char *data, int len)
+		char *xor_decode(const char *data, int len)
